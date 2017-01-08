@@ -2,7 +2,6 @@ body{
 	margin:0;
 	padding:0;
 	height: 100%;
-	background-image: url("books.jpg");
 	}
 
 h1{
@@ -16,6 +15,10 @@ h1{
 p{
         font-family: rubik;
         }
+#background{
+		background-image: url("pencil.jpg");
+		padding-bottom: 80px;
+		}
         
 a:link{ text-decoration:none;
 	color: red;
@@ -54,10 +57,10 @@ li a:hover {
 #two{
  	font-family: rubik;
  	float:right;
- 	margin: 60px 40px;
+ 	margin: 50px 20px;
  	font-size: 40px;
  	text-decoration: none;
- 	padding: 80px;
+ 	padding: 50px;
  	background-color: lightgrey;
  	color: blue;
  	}
@@ -82,11 +85,6 @@ li a:hover {
   	padding: 80px;
   	background-color: lightgrey;
   	}
-#footer{
-	height:100px;
-	float: bottom;
-	padding-top: 500px;
-	}
 span a:hover{
 		background-color: ligthblue;
 		}
